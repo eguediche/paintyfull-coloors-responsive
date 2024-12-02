@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.boite-haut{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 25%;
+}
+
+.texte-haut{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 36px;
+    color: #369EFF;
+    line-height: 45.99px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 900;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.texte-p-haut{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #808080;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.Img{
+    width: 75%;
+    align-self: center;
+    margin-top: 15%;
+}
+
+.boite-bas{
+    display: flex;
+    flex-direction: column;
+}
+
+.parent-grille{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr;
+}
+
+.zone-1{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #FBDF93;
+    height: 100vh;
+}
+
+.color-code{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.63px;
+    text-align: center ;
+    margin-bottom: 7%;
+
+}
+
+.color-name{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.zone-2{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #D3FB93;
+    height: 100vh;
+}
+
+.zone-3{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #E193FB;
+    height: 100vh;
+}
+
+.zone-4{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #93F0FB;
+    height: 100vh;
+}
+
+.zone-5{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #F7FB93;
+    height: 100vh;
+}
+
+@media screen and (min-width: 430px){
+
+    .parent-grille{
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 1fr, 1fr, 1fr;
+    }
+
+}
+
+@media screen and (min-width: 1080px){
+
+    .parent-grille{
+        grid-template-columns: 1fr;
+        grid-template-rows: 5fr;
+    }
+}
